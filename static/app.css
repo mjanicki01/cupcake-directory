@@ -1,0 +1,46 @@
+body {
+    padding-bottom: 40px;
+    margin: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    max-height:200px;
+    max-width:200px;
+    height:auto;
+    width:auto;
+}
+
+a:link, a:visited, a:active {
+    color: rgb(0, 2, 116);
+}
+
+a:hover {
+    color: rgb(0, 2, 116);
+    font-style: italic;
+}
+
+.cupcake-display-container {
+    padding-bottom: 20px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.cupcake-child-container {
+    padding: 0;
+    margin: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+p {
+    line-height: 0.5;
+}
